@@ -1,0 +1,91 @@
+/* Write your code here. */
+.background-container {
+  background-color: whitesmoke;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.notification-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+  padding-left: 20px;
+}
+.para {
+  color: white;
+  margin-left: 5px;
+}
+.info-message {
+  background-color: #0b69ff;
+  width: 80%;
+  margin-bottom: 20px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 3px;
+}
+.success-message {
+  background-color: #2dca73;
+  width: 80%;
+  margin-bottom: 20px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 3px;
+}
+.warning-message {
+  background-color: #ffb800;
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 3px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 3px;
+}
+.error-message {
+  background-color: #ff0b37;
+  width: 80%;
+  margin-bottom: 20px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 3px;
+}
+.image {
+  height: 20px;
+  width: 20px;
+  border: solid 0px;
+  border-radius: round;
+  margin-left: 10px;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .info-message {
+    width: 60%;
+  }
+  .success-message {
+    width: 60%;
+  }
+  .warning-message {
+    width: 60%;
+  }
+  .error-message {
+    width: 60%;
+  }
+}
